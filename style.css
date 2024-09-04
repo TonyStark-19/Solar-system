@@ -3,7 +3,10 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    font-family: 'Orbitron', sans-serif;
 }
+
+/** video **/
 
 .video-background {
     position: fixed;
@@ -13,4 +16,45 @@ body, html {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+/** content **/
+
+.content {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    text-align: center;
+    z-index: 1
+}
+
+/** heading **/
+
+.title {
+    font-size: 20px;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+
+/** button **/
+
+.button button {
+    background: yellow;
+    color: #000;
+    border: 2px solid yellow;
+    padding: 10px 20px;
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.button button:hover {
+    border: 2px solid #f0f0f0;
+    color: #f0f0f0;
+    background: transparent;
 }
