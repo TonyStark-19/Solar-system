@@ -27,6 +27,9 @@ body, html {
     width: 50%;
     height: 100%;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .planet-name {
@@ -47,7 +50,7 @@ body, html {
 }
 
 .planet-img {
-    min-width: 50%;
+    width: 50%;
     height: 100%;
 }
 
