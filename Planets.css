@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #021526;
+}
+
+.planets {
+    padding: 20px 40px;
+    min-height: 100vh;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.heading h2 {
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    width: 400px;
+    color: #6EACDA;
+    background: #03346E;
+    text-align: center;
+}
+
+.planet-section {
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planet-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid #6EACDA;
+}
+
+.planet-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button button {
+    background: #03346E;
+    color: #6EACDA;
+    border: 2px solid #03346E;
+    padding: 10px 30px;
+    min-width: 100px;
+    min-height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.button button:hover {
+    border: 2px solid #E2E2B6;
+    color: #6EACDA;
+    background: #E2E2B6;
+}
