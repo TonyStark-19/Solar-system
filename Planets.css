@@ -25,12 +25,21 @@ body, html {
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
 .planet-section {
     margin-top: 50px;
-    width: 80%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .planet-img {
