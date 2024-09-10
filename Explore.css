@@ -28,20 +28,24 @@ body, html {
     height: 100%;
     padding: 20px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     color: #ffffffb3;
+    background-color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
 }
 
 .planet-name {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
+    text-transform: capitalize;
 }
 
 .planet-details {
     list-style: none;
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .planet-details li {
@@ -50,6 +54,21 @@ body, html {
 
 .planet-name, .planet-details li {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.info, .planet-img {
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .planet-img {
