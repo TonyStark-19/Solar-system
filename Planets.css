@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Orbitron', sans-serif;
-    background: #021526;
+    background: #021526
 }
 
 .planets {
@@ -16,7 +16,7 @@ body, html {
 }
 
 .heading h2 {
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 20px;
     border-radius: 12px;
     width: 400px;
@@ -48,6 +48,11 @@ body, html {
     border-radius: 15px;
     overflow: hidden;
     border: 3px solid #6EACDA;
+    transition: all 0.3s ease;
+}
+
+.planet-img:hover {
+    border: 3px solid #03346E;
 }
 
 .planet-img img {
@@ -64,7 +69,7 @@ body, html {
     min-width: 100px;
     min-height: 40px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
     transition: all 0.3s ease;
