@@ -29,7 +29,7 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 30px;
 }
 
@@ -71,7 +71,7 @@ body, html {
 }
 
 .button button:hover {
-    border: 2px solid #E2E2B6;
+    border: 2px solid #6EACDA;
     color: #6EACDA;
-    background: #E2E2B6;
+    background: transparent;
 }
