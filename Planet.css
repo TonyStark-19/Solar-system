@@ -84,6 +84,7 @@ body {
 }
 
 .content .name {
+    color: yellow;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
