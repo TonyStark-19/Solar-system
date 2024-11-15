@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Orbitron', sans-serif;
@@ -59,7 +60,8 @@ body, html {
     margin-bottom: 1rem;
 }
 
-.planet-name, .planet-details li {
+.planet-name,
+.planet-details li {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -68,13 +70,15 @@ body, html {
         opacity: 0;
         transform: translateX(-40px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
-.info, .planet-img {
+.info,
+.planet-img {
     animation: fadeIn 1.5s ease-in-out;
 }
 
