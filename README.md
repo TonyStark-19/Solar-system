@@ -2,6 +2,11 @@
 
 Welcome to the **Solar System Website** project! This project is designed to give users a visually immersive experience of exploring the solar system, complete with background videos, interactive buttons, and planet-specific pages.
 
+## Screenshots
+
+### Homepage :
+![Homepage Screenshot](images/image.png)
+
 ## Project Overview
 
 This website contains the following pages and features:
