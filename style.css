@@ -6,6 +6,31 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     user-select: none;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: #09122C;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #042e53;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4070f4
 }
 
 /* navbar */
@@ -127,4 +152,116 @@ nav .navbar .menu {
     background: #042e53;
     color: #fff;
     border: 2px solid #042e53;
+}
+
+.intro-container {
+    background: #09122C;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.solar-system {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.solar-system .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.info .info-text {
+    width: 800px;
+}
+
+.info .info-text h3 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.info .info-text p {
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.info .info-text ul {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.info .info-text ul li {
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.info .info-image img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+/* footer */
+
+footer {
+    padding: 40px 30px;
+    border-top: 1px solid #fff;
+    background: #021526;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+footer .links,
+footer .more-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.head,
+.links .heading h3,
+.more-links h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.links a,
+.more-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+.links a:hover,
+.more-links a:hover {
+    text-decoration: underline;
+}
+
+.end-text {
+    margin: 40px 0 -10px;
+}
+
+.end-text p {
+    color: #fff;
+    font-size: 18px;
 }
