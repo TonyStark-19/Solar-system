@@ -1,12 +1,11 @@
-let next = document.querySelector('.next')
-let prev = document.querySelector('.prev')
+// js logic for navbar
 
-next.addEventListener('click', function () {
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').appendChild(items[0])
-})
+const nav = document.querySelector("nav"); // Selects the first <nav> element
 
-prev.addEventListener('click', function () {
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').prepend(items[items.length - 1])
-})
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 100) {
+        nav.style.background = "#021526";
+    } else {
+        nav.style.background = "transparent"; // Reset background when scrolled back up
+    }
+});
