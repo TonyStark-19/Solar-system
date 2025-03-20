@@ -15,6 +15,8 @@ body {
     overflow-x: hidden;
 }
 
+/* scrollbar */
+
 ::-webkit-scrollbar {
     height: 8px;
     scrollbar-width: thin;
@@ -46,9 +48,11 @@ nav {
 
 nav .navbar {
     width: 100%;
+    height: 80px;
     display: flex;
     padding: 20px 30px;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav .navbar .head {
@@ -154,6 +158,8 @@ nav .navbar .menu {
     border: 2px solid #042e53;
 }
 
+/* intro section */
+
 .intro-container {
     background: #09122C;
     width: 100%;
@@ -169,6 +175,8 @@ nav .navbar .menu {
     gap: 30px;
 }
 
+/* info container */
+
 .solar-system .info {
     display: flex;
     justify-content: space-around;
@@ -178,16 +186,27 @@ nav .navbar .menu {
     padding: 10px;
 }
 
-.info .info-text {
+.explore-now {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* info text */
+
+.info .info-text,
+.explore-now .info-text {
     width: 800px;
 }
 
-.info .info-text h3 {
+.info .info-text h3,
+.explore-now .info-text h3 {
     color: #fff;
     font-size: 22px;
 }
 
-.info .info-text p {
+.info .info-text p,
+.explore-now .info-text p {
     color: #fff;
     letter-spacing: 1px;
 }
@@ -202,6 +221,8 @@ nav .navbar .menu {
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
+
+/* info image */
 
 .info .info-image img {
     width: 600px;
