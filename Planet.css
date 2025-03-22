@@ -115,6 +115,15 @@ nav .navbar .menu {
 .planets-heading h2 {
     color: #d3d7de;
     font-size: 40px;
+    text-align: center;
+}
+
+.dwarf-planets-heading p,
+.planets-heading p {
+    color: #d3d7de;
+    font-size: 20px;
+    width: 1000px;
+    text-align: center;
 }
 
 .planets-wrap,
@@ -126,12 +135,26 @@ nav .navbar .menu {
     flex-wrap: wrap;
     gap: 60px;
     margin-top: 30px;
+    background: #042e53;
+    padding: 50px 0 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .planet-box {
     border: 2px solid #d3d7de;
     border-radius: 20px;
     overflow: hidden;
+    cursor: pointer;
+    height: 300px;
+    filter: brightness(0.8);
+    transition: all 0.3s ease;
+}
+
+.planet-box:hover {
+    filter: brightness(1);
 }
 
 .planet-box img {

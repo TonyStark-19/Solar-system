@@ -1,9 +1,15 @@
-body,
-html {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
 }
+
+/* container */
 
 .explore {
     display: flex;
@@ -11,6 +17,8 @@ html {
     justify-content: center;
     height: 100vh;
 }
+
+/* video */
 
 .video-background {
     position: fixed;
@@ -22,6 +30,8 @@ html {
     z-index: -1;
 }
 
+/* planet container */
+
 .planet-section {
     width: 95%;
     height: 90%;
@@ -31,6 +41,8 @@ html {
     flex-direction: row;
     overflow: hidden;
 }
+
+/* info about planet */
 
 .info {
     width: 50%;
@@ -43,12 +55,16 @@ html {
     letter-spacing: 1px;
 }
 
+/* heading */
+
 .planet-name {
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
+
+/* details */
 
 .planet-details {
     list-style: none;
@@ -64,6 +80,8 @@ html {
 .planet-details li {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+
+/* animation */
 
 @keyframes fadeIn {
     from {
@@ -82,9 +100,12 @@ html {
     animation: fadeIn 1.5s ease-in-out;
 }
 
+/* planet image */
+
 .planet-img {
     width: 50%;
     height: 100%;
+    filter: brightness(0.8);
 }
 
 .planet-img img {
