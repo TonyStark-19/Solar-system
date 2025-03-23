@@ -105,7 +105,7 @@
 .planet-img {
     width: 50%;
     height: 100%;
-    filter: brightness(0.8);
+    filter: brightness(0.7);
 }
 
 .planet-img img {
