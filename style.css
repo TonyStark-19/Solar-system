@@ -136,7 +136,9 @@ nav .navbar .menu {
     gap: 20px;
 }
 
-.button button {
+.button button,
+.info-text button,
+.info-image button {
     border: 2px solid #f0f0f0;
     color: #f0f0f0;
     background: transparent;
@@ -152,7 +154,9 @@ nav .navbar .menu {
     cursor: pointer;
 }
 
-.button button:hover {
+.button button:hover,
+.info-text button:hover,
+.info-image button:hover {
     background: #042e53;
     color: #fff;
     border: 2px solid #042e53;
@@ -184,29 +188,21 @@ nav .navbar .menu {
     flex-direction: row;
     width: 100%;
     padding: 10px;
-}
-
-.explore-now {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    gap: 40px;
 }
 
 /* info text */
 
-.info .info-text,
-.explore-now .info-text {
+.info .info-text {
     width: 800px;
 }
 
-.info .info-text h3,
-.explore-now .info-text h3 {
+.info .info-text h3 {
     color: #fff;
     font-size: 22px;
 }
 
-.info .info-text p,
-.explore-now .info-text p {
+.info .info-text p {
     color: #fff;
     letter-spacing: 1px;
 }
