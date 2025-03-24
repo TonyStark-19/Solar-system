@@ -9,6 +9,22 @@
     scroll-behavior: smooth;
 }
 
+/* scrollbar */
+
+::-webkit-scrollbar {
+    height: 8px;
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 25px;
+}
+
 /* container */
 
 .explore {
@@ -47,37 +63,49 @@
 .info {
     width: 50%;
     height: 100%;
-    padding: 20px;
+    padding: 30px 20px;
     display: flex;
-    align-items: center;
     flex-direction: column;
     color: #ffffffb3;
     letter-spacing: 1px;
+    overflow-y: scroll;
 }
 
 /* heading */
 
-.planet-name {
-    font-size: 4rem;
+.info .planet-name {
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
 
-/* details */
-
-.planet-details {
-    list-style: none;
-    padding: 0;
-    font-size: 1.7rem;
+.info .heading h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
-.planet-details li {
-    margin-bottom: 1rem;
+.info p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* list */
+
+.list {
+    padding: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.list li {
+    margin-bottom: 3px;
 }
 
 .planet-name,
-.planet-details li {
+.list li {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
