@@ -95,7 +95,7 @@ nav .navbar .menu {
 /* home */
 
 #home {
-    background-image: url(images/home-page/Home-page.webp);
+    background-image: url(/images/home-page/Home-page.webp);
     background-position: center;
     background-size: cover;
     width: 100%;
