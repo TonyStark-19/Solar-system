@@ -63,6 +63,10 @@ nav .navbar .head {
     cursor: default;
 }
 
+nav .navbar .head i {
+    margin-left: 10px;
+}
+
 nav .navbar .menu {
     display: flex;
     gap: 10px;
