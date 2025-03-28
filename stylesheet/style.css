@@ -44,6 +44,7 @@ nav {
     left: 0;
     z-index: 1;
     background: transparent;
+    border-bottom: 2px solid transparent;
 }
 
 nav .navbar {
@@ -61,6 +62,7 @@ nav .navbar .head {
     color: #d3d7de;
     text-decoration: none;
     cursor: default;
+    margin: 0;
 }
 
 nav .navbar .head i {
@@ -158,6 +160,12 @@ nav .navbar .menu {
     cursor: pointer;
 }
 
+.info-text button,
+.info-image button {
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
 .button button:hover,
 .info-text button:hover,
 .info-image button:hover {
@@ -171,7 +179,7 @@ nav .navbar .menu {
 .intro-container {
     background: #09122C;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .solar-system {
@@ -204,9 +212,11 @@ nav .navbar .menu {
 .info .info-text h3 {
     color: #fff;
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .info .info-text p {
+    font-size: 17px;
     color: #fff;
     letter-spacing: 1px;
 }
