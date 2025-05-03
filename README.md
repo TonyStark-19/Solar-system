@@ -1,36 +1,69 @@
-# Solar System Website
+# 🌌 CosmoSphere – A Journey Through the Solar System
 
-Welcome to the **Solar System Website** project! This project is designed to give users a visually immersive experience of exploring the solar system, complete with background videos, interactive buttons, and planet-specific pages.
+Welcome to **CosmoSphere**, an educational and visually engaging website that explores the wonders of the **solar system** and beyond. From the blazing core of the Sun to the icy edges of distant galaxies, this site aims to make space knowledge accessible, fun, and beautiful.
+
+> ⚠️ **Note:** This project is currently on **standby**. Development is paused temporarily but will resume in the near future.
+
+---
 
 ## Screenshots
 
 ### Homepage :
 ![Homepage Screenshot](images/image.png)
 
-## Project Overview
+## 🚀 Features
 
-This website contains the following pages and features:
+- 🪐 Detailed sections on **Planets**, **Moons**, **Stars**, and **Galaxies**
+- 🌞 Educational content about the **Sun** and **space missions**
+- 📸 Rich visuals and responsive layout for an immersive experience
+- 🎨 Clean UI design using **HTML & CSS**
+- 🎯 Smooth user navigation and engaging structure
 
-1. **Home Page**:
-    - A background video of the solar system plays to create a captivating experience.
-    - A welcome text introduces users to the site.
-    - An **Explore** button that directs users to the planet selection page.
+---
 
-2. **Planet Page**:
-    - Displays images of all the planets in the solar system.
-    - Each planet image has a corresponding button.
-    - When the button for a planet is clicked, the user is taken to a dedicated page for that planet.
+## 📂 Project Structure
 
-3. **Planet-Specific Pages**:
-    - Every planet has its own page, displaying detailed information, facts, and visuals about that planet.
-    
-## Technologies Used
+```plaintext
+CosmoSphere/
+│
+├── index.html # Main landing page
+├── stylesheet/
+│ └── style.css # All CSS styling
+├── images/
+│ └── home-page/ # All images used in the homepage
+├── Pages/ # Individual topic pages (Planets, Moons, Stars, etc.)
+│ ├── Planet.html
+│ ├── Moons.html
+│ ├── Stars.html
+│ ├── Galaxy.html
+│ └── space-missons.html
+└── Js/
+└── script.js # Custom JavaScript + ScrollReveal animations
+```
+---
 
-- **HTML5**: For structuring the content of the website.
-- **CSS3**: For styling the site and adding animations.
-- **Background Video**: Used on the homepage for an engaging user experience.
+## 💡 Technologies Used
 
-## Features
+- **HTML5** – Structure of the web pages
+- **CSS3** – Styling and responsive layout
+- **Font Awesome** – Icon library
+- **ScrollReveal.js** – Simple scroll animation library
 
-- **Interactive UI**: Users can explore the solar system and learn about each planet by clicking on the respective buttons.
-- **Individual Planet Pages**: Each planet has its own dedicated page with information and a unique design.
+---
+
+## 📌 Future Plans
+
+- Add interactive elements for each section
+- Improve responsiveness and accessibility
+- Complete each pages
+- Improve the UI
+
+---
+
+## ❤️ Acknowledgements
+
+Made with passion and curiosity for the cosmos.
+
+> “Somewhere, something incredible is waiting to be known.” – Carl Sagan
+
+---
